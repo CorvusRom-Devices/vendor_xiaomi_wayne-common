@@ -853,8 +853,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/xiaomi/wayne/proprietary/vendor/etc/device_features/wayne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/wayne.xml \
+    vendor/xiaomi/wayne/proprietary/vendor/etc/device_features/jasmine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/jasmine.xml \
+    vendor/xiaomi/wayne/proprietary/vendor/etc/device_features/jasmine_sprout.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/jasmine_sprout.xml \
+    vendor/xiaomi/wayne/proprietary/vendor/etc/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/miuicamera-permissions.xml \
+    vendor/xiaomi/wayne/proprietary/vendor/etc/permissions/miuicamera-privapp-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/miuicamera-privapp-permissions.xml \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libCameraEffectJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCameraEffectJNI.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama_gp.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCameraEffectJNI.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so \
+    vendor/xiaomi/wayne/proprietary/vendor/priv-app/MiuiCamera/MiuiCamera.apk:$(TARGET_COPY_OUT_VENDOR)/priv-app/MiuiCamera/MiuiCamera.apk
 
 PRODUCT_PACKAGES += \
     libaudioparsers \
-    FingerprintExtensionService
+    FingerprintExtensionService \
+    MiuiCamera
